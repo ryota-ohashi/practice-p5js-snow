@@ -26,7 +26,7 @@ function draw() {
 function drawLight(snow){
   for(i = 0; i < n; i++){
     fill(255, 255 / n);
-    ellipse(snow[0] + 20 * sin(t / 120 + snow[3]), (snow[1]) % h, (snow[2] / n) * (n - i));
+    circle(snow[0] + 20 * sin(t / 120 + snow[3]), (snow[1]) % h, (snow[2] / n) * (n - i));
   }
 }
 
